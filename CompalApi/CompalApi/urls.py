@@ -25,6 +25,7 @@ router = routers.DefaultRouter()
 router.register('users', UserViewSet)
 router.register('groups', GroupViewSet)
 router.register('permissions', PermissionViewSet)
+router.get_urls()
 
 
 urlpatterns = [
